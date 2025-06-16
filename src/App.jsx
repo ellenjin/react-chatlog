@@ -1,5 +1,4 @@
 import './App.css';
-// import ChatEntry from './components/ChatEntry.jsx';
 import ChatLog from './components/ChatLog.jsx';
 import messagesData from './data/messages.json';
 import { useState } from 'react';
@@ -22,7 +21,7 @@ const App = () => {
     <div id="App">
       <header>
         <h1>React Chatlog</h1>
-        <h2>{totalLikes} ❤️s</h2>
+        <section id="heartWidget">{totalLikes} ❤️s</section>
       </header>
       <main>
         <ChatLog
