@@ -21,7 +21,7 @@ const ChatLog = (props) => {
     <>
       {messageComponents}
     </>
-  )
+  );
 };
 
 ChatLog.propTypes = {
